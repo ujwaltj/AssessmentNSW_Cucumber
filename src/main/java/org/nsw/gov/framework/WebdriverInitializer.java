@@ -28,7 +28,7 @@ public class WebdriverInitializer {
         switch(type)
         {
             case "Chrome":
-                File chromeFile = new File("C:\\Users\\User\\Documents\\chromedriver-win64\\chromedriver.exe");
+                File chromeFile = new File("./src/main/resources/drivers/chromedriver.exe");
                 System.setProperty("webdriver.chrome.driver", chromeFile.getAbsolutePath());
 //                ChromeOptions options = new ChromeOptions();
 //                options.addArguments("--no-sandbox");
